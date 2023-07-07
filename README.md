@@ -16,6 +16,6 @@ The project use the next technologies:
 ![chakraui](https://images.opencollective.com/chakra-ui/eb43264/logo/256.png)
 
 - #### **OpenAI**
-![openai](https://polybit-apps.s3.amazonaws.com/stdlib/users/openai/profile/image.png?1673838757107)
+![openai](https://ps.w.org/open-ai-search-bar/assets/icon-256x256.png?rev=2910451)
 
 You can checkout the [Live demo]()
