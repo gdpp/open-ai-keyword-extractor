@@ -18,4 +18,4 @@ The project use the next technologies:
 - #### **OpenAI**
 ![openai](https://ps.w.org/open-ai-search-bar/assets/icon-256x256.png?rev=2910451)
 
-You can checkout the [Live demo]()
+You can checkout the [Live demo](https://open-ai-keyword-extractor.pages.dev/)
