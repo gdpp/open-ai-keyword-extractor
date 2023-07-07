@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Textarea, Button, useToast } from "@chakra-ui/react";
 
-const TextInput = () => {
+const TextInput = ({extractKeywords}) => {
   const [text, setText] = useState('');
   const toast = useToast();
 
@@ -18,14 +18,14 @@ const TextInput = () => {
 
       return;
     } else{
-      alert(text);
+      extractKeywords(text);
     }
   }
 
   return (
     <>
       <Textarea 
-        bg='blue.400'
+        bg='teal.400'
         color='white'
         p={4}
         mt={6}
@@ -34,11 +34,11 @@ const TextInput = () => {
         onChange={(e) => setText(e.target.value)}
       />
       <Button
-        bg='blue.500'
+        bg='teal.500'
         color='white'
         mt={4}
         w='100%'
-        _hover={{bg: 'blue.700'}}
+        _hover={{bg: 'teal.700'}}
         onClick={submitText}
       >
         Extract keywords
